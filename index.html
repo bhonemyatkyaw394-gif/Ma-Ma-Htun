@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ma" Htun ilu🫶</title>
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    background:linear-gradient(#ffd6e7,#fff);
+    font-family:sans-serif;
+    text-align:center;
+}
+
+.header{
+    padding:40px 20px;
+}
+
+h1{
+    color:#ff4081;
+}
+
+.gallery img{
+    width:90%;
+    max-width:500px;
+    border-radius:20px;
+    margin:15px 0;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+.text{
+    max-width:800px;
+    margin:auto;
+    padding:20px;
+    line-height:1.8;
+    font-size:18px;
+}
+
+footer{
+    padding:30px;
+    color:#ff4081;
+    font-size:22px;
+}
+button{
+background:#ff4081;
+color:white;
+border:none;
+padding:12px 25px;
+border-radius:25px;
+font-size:18px;
+cursor:pointer;
+margin-top:20px;
+box-shadow:0 0 10px rgba(255,64,129,0.5);
+}
+
+button:hover{
+transform:scale(1.05);
+        }
+.heart {
+  position: fixed;
+  top: -20px;
+  color: red;
+  font-size: 20px;
+  animation: fall linear infinite;
+  z-index: 999;
+}
+
+@keyframes fall {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>💖 Ma" Htun ilu🫶 💖</h1>
+    <h2>To My heart's queen. ❤️</h2>
+</div>
+
+<div class="gallery">
+
+<img src="photo1.jpg">
+<div class="text">
+မမကို ကျနော် ဒီပုံလေးနဲ့ပဲ စပြီးသတိထားမိခဲ့တာပါ။
+ဒီပုံလေးက ကျ​နော် မမကို ပထမဆုံးရင်ခုန်စေခဲ့တဲ့ ပုံလေးတစ်ပုံပဲ။
+</div>
+
+<img src="photo2.jpg">
+
+<img src="photo3.jpg">
+
+<img src="photo4.jpg">
+
+</div>
+
+<div class="text">
+
+မမရေ...
+
+ဒီ Website လေးက မမအတွက် ကျ​နော့်ရဲ့ ချစ်ခြင်းမေတ္တာတွေကို စုစည်းထားတဲ့ နေရာလေးတစ်ခုပါ။
+
+မမကို စတွေ့ခဲ့တဲ့နေ့ကစပြီး ကျ​နော့်ရဲ့ နှလုံးသားထဲမှာ မမတစ်ယောက်တည်းပဲ နေရာယူထားခဲ့တာ။
+
+ပထမဆုံးတွေ့ခဲ့တဲ့ ပုံလေးကစပြီး ဒီနေ့အထိ မမက ကျနော့်ရဲ့ နလုံးသားထဲမှာ နေရာအယူနိုင်ဆုံး လူတစ်ယောက်ပါ။
+
+မမကို ချစ်မိခဲ့တာ အကြောင်းပြချက်မလိုဘူး...
+
+Ma" Sandar Htun ဖြစ်နေလို့ကို ချစ်မိတာ။ ❤️
+
+မမက ကျနော့် ပထမဆုံးရင်ခုန်သံလေးပါ။ 🫶
+မမ ကျနော့်ကြောင့် စိတ်အနှောက်အယှက်ဖြစ်ခဲ့ရတာတွေရှိရင်လည်းတောင်းပန်ပါတယ်နော်🤍
+ကျနော့်အနားမှာ အမြဲရှိနေပေးဖို့လဲ မျှော်လင့်တယ် 💞
+
+</div>
+
+<footer>
+❤️ I Love You Forever Ma" Sandar Htun ❤️
+</footer>
+<p>
+<a href="https://youtu.be/x9zIEc7DS8w" target="_blank">
+🎵 မင်းအကြောင်း အိပ်မက် - ဖွင့်ရန်
+</a>
+</p>
+    <button onclick="showLove()">
+💌 Click Me
+</button>
+
+<p id="love"></p>
+
+<script>
+function showLove(){
+document.getElementById("love").innerHTML=
+"မမကို အရမ်းချစ်တယ်mwhh ❤️ မမက ကျနော့်ရဲ့ ကမ္ဘာလေးပါ 🫶";
+}
+</script>
+<iframe
+width="0"
+height="0"
+src="https://www.youtube.com/embed/x9zIEc7DS8w?autoplay=1&loop=1&playlist=x9zIEc7DS8w"
+title="Background Music"
+frameborder="0"
+allow="autoplay">
+</iframe>
+<script>
+for(let i=0;i<30;i++){
+
+let heart=document.createElement("div");
+
+heart.innerHTML="❤️";
+
+heart.className="heart";
+
+heart.style.left=Math.random()*100+"%";
+
+heart.style.animationDuration=(3+Math.random()*5)+"s";
+
+heart.style.fontSize=(15+Math.random()*25)+"px";
+
+document.body.appendChild(heart);
+
+}
+</script>
+<audio controls loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+</body>
+</html>
